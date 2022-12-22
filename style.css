@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 20px;
+    color:  rgb(36, 234, 151);
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navigation {
+    width: 65%;
+}
+
+.navigation ul {
+    display: flex;
+    float: right;
+}
+
+.navigation ul li {
+    list-style: none;
+    padding: 0px 30px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 22px;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+    color: rgb(36, 234, 151);
+    cursor: pointer;
+}
+
+.homepage {
+    background-image: url('images/achieveimg2.jpg');
+    background-size: 100%;
+    display: flex;
+    width: 98.9vw;
+    height: 85.3vh;
+    background-color: rgb(128, 152, 165, 0.5);
+
+}
+
+.homepageleft {
+    width: 65vw;
+    height: 100vh;
+    margin-top: 200px;
+    padding-left: 90px;
+}
+
+.homepageright {
+    margin-top: 130px;
+    padding-left: 40px;
+    width: 35vw;
+    height: 88vh;
+}
+
+.header {
+    font-size: 40px;
+    color: grey;
+}
+
+.header2 {
+    font-size: 50px;
+    color: rgb(36, 234, 151);
+}
+
+.headerinfo {
+    font-size: 25px;
+    color: grey;
+}
+
+.img1 {
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    border: 8px solid  rgb(36, 234, 151);
+    border-radius: 50px;
+}
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.site {
+    padding: 10px;
+    font-size: 35px;
+    filter: invert();
+}
+
+hr {
+    background-color:  rgb(36, 234, 151);
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    color: black;
+    height: 20px;
+    background-color: rgb(128, 152, 165,0.8);
+}

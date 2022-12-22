@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi7y.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .navbar {
+            display: flex;
+            height: 80px;
+            background-color: black;
+            align-items: center;
+        }
+    
+        .logo {
+            width: 30%;
+            padding-left: 20px;
+            color: rgb(36, 234, 151);
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    
+        .navigation {
+            width: 65%;
+        }
+    
+        .navigation ul {
+            display: flex;
+            float: right;
+        }
+    
+        .navigation ul li {
+            list-style: none;
+            padding: 0px 30px;
+        }
+    
+        .navigation ul li a {
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 22px;
+            color: grey;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+        }
+    
+        .navigation ul li a:hover {
+            text-decoration: underline;
+            color: rgb(36, 234, 151);
+            cursor: pointer;
+        }
+    
+    
+    
+        body {
+            background-image: url('images/achieveimg2.jpg');
+        }
+    
+        .form {
+            height: 55vh;
+            width: 30vw;
+            border: 5px solid rgb(36, 234, 151);
+            border-radius: 25px;
+            margin: 0 auto;
+            margin-top: 120px;
+        }
+    
+        .formheader {
+            padding: 10px;
+            text-align: center;
+            color: rgb(36, 234, 151);
+        }
+    
+        .info {
+            text-align: center;
+            margin: 20px auto;
+        }
+    
+        #form-first {
+            height: 25px;
+            padding-left: 15px;
+            border-radius: 20px;
+        }
+    
+        #form-last {
+            padding-left: 15px;
+            height: 25px;
+            border-radius: 20px;
+        }
+    
+        #form-number {
+            width: 22.5vw;
+            padding-left: 15px;
+            border-radius: 20px;
+            height: 25px;
+        }
+    
+        #form-email {
+            padding-left: 15px;
+            height: 25px;
+            width: 22.5vw;
+            border-radius: 20px;
+        }
+    
+        #form-message {
+            padding-left: 15px;
+            border-radius: 20px;
+            width: 22.5vw;
+            height: 75px;
+        }
+    
+        #form-submit {
+            width: 22.5vw;
+            height: 35px;
+            margin-top: 20px;
+            background-color: rgb(36, 234, 151);
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 20px;
+        }
+    
+        #form-submit:hover {
+            background-color: black;
+            color: rgb(36, 234, 151);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Adi7y.</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/achievements.html">Achievements</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <form action="noaction.php" class="form">
+        <h1 class="formheader">Reach Out To Me</h1>
+        <div class="info">
+            <input type="text" id="form-first" placeholder="First Name">
+            <input type="text" placeholder="Last Name" id="form-last">
+        </div>
+        <div class="info">
+            <input type="tel" id="form-number" placeholder="Phone no.">
+        </div>
+        <div class="info">
+            <input type="email" id="form-email" placeholder="Email Id">
+        </div>
+        <div class="info">
+            <textarea name="message" id="form-message" placeholder="Message"></textarea>
+        </div>
+        <div class="info">
+            <input type="submit" id="form-submit">
+        </div>
+    </form>
+</body>
+
+</html>

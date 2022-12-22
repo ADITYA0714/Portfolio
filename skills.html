@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi7y.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            height: 80px;
+            background-color: black
+            ;
+            align-items: center;
+        }
+
+        .logo {
+            width: 30%;
+            padding-left: 20px;
+            color: rgb(36, 234, 151);
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .navigation {
+            width: 65%;
+        }
+
+        .navigation ul {
+            display: flex;
+            float: right;
+        }
+
+        .navigation ul li {
+            list-style: none;
+            padding: 0px 30px;
+        }
+
+        .navigation ul li a {
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 22px;
+            color: grey;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+        }
+
+        .navigation ul li a:hover {
+            text-decoration: underline;
+            color: rgb(36, 234, 151);
+            cursor: pointer;   
+        }
+
+        body {
+            background-image: url('images/achieveimg.jpg');
+            background-size: 100%;
+        }
+
+        .box {
+            width: 60vw;
+            height: 60vh;
+            margin: 0 auto;
+            margin-top: 80px;
+            margin-bottom: 20px;
+            background-color: black;
+            border: 5px solid rgb(79, 111, 84);
+            border-radius: 30px;
+            color: white;
+        }
+
+        .container1 {
+            width: 58vw;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        .box p {
+            padding: 10px 20px;
+        }
+
+        .skills {
+            padding: 10px 0px;
+            text-align: right;
+            color: black;
+        }
+
+        .html {
+            width: 85%;
+            background-color: rgb(39, 188, 39);
+            border-radius: 30px;
+        }
+
+        .css {
+            width: 70%;
+            background-color: red;
+            border-radius: 30px;
+        }
+
+        .javascript {
+            width: 50%;
+            background-color: blue;
+            border-radius: 30px;
+        }
+
+        .c {
+            width: 80%;
+            background-color: yellow;
+            border-radius: 30px;
+        }
+
+        .cpp {
+            width: 30%;
+            background-color: orange;
+            border-radius: 30px;
+        }
+
+        .btn {
+            margin-left: 48vw;
+            height: 40px;
+            width: 140px;
+            font-size: 20px;
+            background-color: white;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+            border-radius: 30px;
+        }
+
+        .btn:hover {
+            background-color: rgb(39, 188, 39);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Adi7y.</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/achievements.html">Achievements</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+    <div class="box">
+        <p>HTML</p>
+        <div class="container1">
+            <div class="skills html">85%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container1">
+            <div class="skills css">70%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="container1">
+            <div class="skills javascript">50%</div>
+        </div>
+        <p>C</p>
+        <div class="container1">
+            <div class="skills c">80%</div>
+        </div>
+        <p>C++</p>
+        <div class="container1">
+            <div class="skills cpp">30%</div>
+        </div>
+    </div>
+    <button class="btn ext">Extra skills</button>
+</body>
+
+</html>

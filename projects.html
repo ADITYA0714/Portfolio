@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi7y.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            height: 80px;
+            background-color: black;
+            align-items: center;
+        }
+
+        .logo {
+            width: 30%;
+            padding-left: 20px;
+            color: rgb(36, 234, 151);
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .navigation {
+            width: 65%;
+        }
+
+        .navigation ul {
+            display: flex;
+            float: right;
+        }
+
+        .navigation ul li {
+            list-style: none;
+            padding: 0px 30px;
+        }
+
+        .navigation ul li a {
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 22px;
+            color: grey;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+        }
+
+        .navigation ul li a:hover {
+            text-decoration: underline;
+            color: rgb(36, 234, 151);
+            cursor: pointer;
+        }
+
+
+        body {
+            background-image: url('images/achieveimg.jpg');
+            background-size: 100%;
+        }
+
+        .projcontainer {
+            display: flex;
+        }
+
+        .projleft {
+            padding: 25px;
+            width: 46.8vw;
+
+        }
+
+        .projhead {
+            color: rgb(36, 234, 151);
+            font-family: 'Ubuntu', sans-serif;
+            padding-left: 20px;
+        }
+
+        .projright {
+            padding: 25px;
+            width: 49.8;
+        }
+
+        .projphoto {
+            color: rgb(36, 234, 151);
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+        .mid {
+            border-left: 3px solid rgb(36, 234, 151);
+            margin-top: 95px;
+            border-radius: 2px;
+            height: 65vh;
+        }
+
+        .headdetail {
+            padding-left: 20px;
+        }
+
+        .detailhead {
+            margin: 15px 0px;
+            color: grey;
+        }
+
+        .info {
+            line-height: 25px;
+            color: white;
+            font-size: 18px;
+        }
+
+        #ques {
+            color: rgb(36, 234, 151);
+        }
+
+        .imgbox {
+            width: 45vw;
+            height: 80vh;
+            margin: 30px 10px;
+        }
+
+        .img {
+            width: 20vw;
+            height: 30vh;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Adi7y.</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/achievements.html">Achievements</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+
+    <div class="projcontainer">
+        <div class="projleft">
+            <h1 class="projhead">Projects</h1>
+            <div class="headdetail">
+                <h2 class="detailhead">1.Dice Game</h2>
+                <div class="info">
+                    <span id="ques">Objective:</span> The Objective to make this project is to help in toss.
+                    <br>
+                    <span id="ques">Tech-stake:</span> HTML,CSS,Js.
+                    <br>
+                    <span id="ques"> Detail:</span> In this game two dice is rolled and the which ever player get more
+                    value on dice wins!!
+                </div>
+                <h2 class="detailhead">2.Gym website</h2>
+                <div class="info">
+                    <span id="ques">Objective:</span> The Objective behind this project was learing to Gym website.
+                    <br>
+                    <span id="ques">Tech-stake:</span> HTML,CSS.
+                    <br>
+                    <span id="ques"> Detail:</span> It's a minimilistic design of a Gym chain website, you can subscribe
+                    to chain there itself.
+                </div>
+                <h2 class="detailhead">3.Portfolio site</h2>
+                <div class="info">
+                    <span id="ques">Objective:</span>The Objective of this project was to have a portfolio site self.
+                    <br>
+                    <span id="ques">Tech-stake:</span> HTML,CSS.
+                    <br>
+                    <span id="ques"> Detail:</span> I have tried new design type in the project i.e vertical navigation
+                    bar.
+                </div>
+                <h2 class="detailhead">4.Drum set</h2>
+                <div class="info">
+                    <span id="ques">Objective:</span> I made this as a fun project for time pass and concept brush up.
+                    <br>
+                    <span id="ques">Tech-stake:</span> HTML,CSS,Js.
+                    <br>
+                    <span id="ques"> Detail:</span> The drum have differnt sound of its own type & I have targeted the
+                    drums with keyboard.
+                </div>
+            </div>
+        </div>
+        <div class="mid"></div>
+        <div class="projright">
+            <h1 class="projphoto">Work Sample</h1>
+            <div class="imgbox">
+                <img src="images/img5.png" id="img1" class="img" alt="img10">
+                <img src="images/img2.png" id="img2" class="img" alt="img10">
+                <img src="images/img3.png" id="img3" class="img" alt="img10">
+                <img src="images/img4.png" id="img4" class="img" alt="img10">
+            </div>
+        </div>
+    </div>
+</body>
